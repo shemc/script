@@ -4,5 +4,5 @@
 
 - [MyNovelReader](MyNovelReader.user.js)：小说阅读脚本
   - 从 6.0.0（2017-8-23）开始，改成 `import` 构建（可能旧浏览器不支持，待解决）。Opera 12 及旧版本浏览器用户暂时先用以前的版本。
-  - 旧版本 My Novel Reader 5.6.9
+  - 旧版本 [My Novel Reader 5.6.9]()
   - 支持起点 vip 阅读，如果无效，可能需要在 `Tampermonkey` 中设置 `@connect 模式`: 为 `宽松` 模式。
