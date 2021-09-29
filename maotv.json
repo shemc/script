@@ -1,6 +1,6 @@
 
 {
-  "spider": "https://github.com/shemc/script/raw/master/custom_spider.jar",
+  "spider": "https://gitee.com/shemc/cat-tv/raw/master/custom_spider.jar?raw=true",
   "sites": [
     {
   "key": "csp_Aidi",
