@@ -9,6 +9,6 @@
 
 ### 视频app配置文件
 
-- 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`
+- 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`  `https://cdn.jsdelivr.net/gh/shemc/script/raw/main/maotv.json`
   - 猫配置
    - TT `https://netcut.cn/p/f66dbba9f769e792`
