@@ -1,6 +1,6 @@
 
 {
-  "spider": "https://gitee.com/shemc/cat-tv/raw/master/custom_spider.jar?raw=true",
+"spider": "https://gitee.com/shemc/cat-tv/raw/master/custom_spider.jar?raw=true",
   "sites": [
     {
   "key": "csp_Aidi",
