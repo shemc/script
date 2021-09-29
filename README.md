@@ -11,4 +11,4 @@
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`
   - 猫配置
-    - TT `https://netcut.cn/p/f66dbba9f769e792`
+   - TT `https://netcut.cn/p/f66dbba9f769e792`
