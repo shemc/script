@@ -1,5 +1,6 @@
 
 {
+  "spider": "https://github.com/shemc/script/raw/master/custom_spider.jar",
   "sites": [
     {
   "key": "csp_Aidi",
