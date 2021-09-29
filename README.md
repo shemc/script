@@ -7,4 +7,4 @@
   - 旧版本 [My Novel Reader 5.6.9](https://github.com/shemc/script/raw/main/My%20Novel%20Reader%205.6.9.js)
   - 支持起点 vip 阅读，如果无效，可能需要在 `Tampermonkey` 中设置 `@connect 模式`: 为 `宽松` 模式。
 
-## https://cdn.jsdelivr.net/gh/账号名称/项目名/
+接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`
