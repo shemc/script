@@ -1,6 +1,5 @@
-	
 {
-  "spider": "https://gitee.com/tzhlzt/mo/raw/master/wain/custom_spider.jar?raw=true",
+"spider": "https://gitee.com/tzhlzt/mo/raw/master/wain/custom_spider.jar?raw=true",
   "sites": [
 {
   "key": "csp_Aidi",
@@ -1363,10 +1362,6 @@
     {
       "name": "Json.VodJX",
         "url": "https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url="
-    },
-    {
-      "name": "json6",
-        "url": "http://jxgg.work/json.php?url="
     },
     {
       "name": "大亨多线程聚合解析",
