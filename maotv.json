@@ -1348,17 +1348,13 @@
     }
   ],
   "parses": [
-     {
-      "name": "json",
-        "url": "https://api.m7716.com/?url="
-    },
     {
       "name": "json1",
         "url": "http://jx.vipmv.co/json3/?url="
     },
     {
       "name": "json2",
-        "url": "http://play.bichangzw.cn/jianghu/json/?url="
+        "url": "http://jxgg.work/json.php?url="
     },
     {
       "name": "json3",
