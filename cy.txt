@@ -1,5 +1,6 @@
 点播：
 极品,https://www.jpysvip.net/api.php/provide/vod/at/xml/,不解析
+One影视,http://www.onedianshi.com/api.php/provide/vod/at/xml,不解析
 快播云,http://www.kuaibozy.com/api.php/provide/vod/at/xml/,不解析
 2A,http://zy.zcocc.com/api.php/provide/vod/at/xml/,解析
 南瓜,http://www.xfeiji.com/api.php/provide/vod/at/xml,不解析
