@@ -1,4 +1,5 @@
 点播：
+极品,https://www.jpysvip.net/api.php/provide/vod/at/xml/,不解析
 快播云,http://www.kuaibozy.com/api.php/provide/vod/at/xml/,不解析
 2A,http://zy.zcocc.com/api.php/provide/vod/at/xml/,解析
 南瓜,http://www.xfeiji.com/api.php/provide/vod/at/xml,不解析
@@ -7,7 +8,6 @@ MBO,https://www.mbomovie.com/api.php/provide/vod/at/xml,不解析
 萌果,http://api.appearoo.top/api.php/provide/vod/at/xml,解析
 天堂,http://vipmv.cc/api.php/provide/vod/at/xml,解析
 天空,https://www.tiankongzy.cc/api.php/Seacms/vod/,解析
-极品,https://www.jpysvip.net/api.php/provide/vod/at/xml/,不解析
 火星2048,https://www.hx2048.com/api.php/provide/vod/at/xml,不解析
 蘑菇,http://www.moguzyw.com:520/moguzy.php/provide/vod/at/xml,解析
 HG资源,http://hgyx.vip/api.php/provide/vod/at/xml,不解析
