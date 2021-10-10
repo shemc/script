@@ -12,4 +12,4 @@
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json`
   - 猫配置 
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://wwi.lanzoui.com/izRMJv45llc) 代号：`miao`
-   - TT `https://netcut.cn/p/f66dbba9f769e792`
+   - TT `https://netcut.cn/p/2a8289a0e5aa9674`
