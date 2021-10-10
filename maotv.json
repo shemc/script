@@ -771,6 +771,14 @@
 		"categories": []
 	},
     	{
+		"key": "想看资源",
+		"name": "想看资源_M",
+		"type": 1,
+		"api": "https://m3u8.xiangkanapi.com/provide/vod/?ac=list",
+		"playUrl": "https://lyw28.com/m3u8/?url=",
+		"categories": []
+	},
+    	{
 		"key": "lehoo资源",
 		"name": "lehoo资源_M",
 		"type": 0,
