@@ -14,3 +14,4 @@
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://wwi.lanzoui.com/izRMJv45llc) 代号：`miao`
    - TT `https://glot.io/snippets/g36qyh9qg6/raw/mao.txt`         精简版 `https://netcut.cn/p/f90d62b2cfa07b6c`
    -   `https://gitlab.com/tzhlzt/CatVodTVSpider/-/raw/master/api/jdm.json`   `https://gitlab.com/tzhlzt/CatVodTVSpider/-/raw/master/api/jdm_s.json `
+   -   `https://tt.naifeimi.com/naifei.f.api/naifeijdmxx.json`  `https://tt.naifeimi.com/naifei.f.api/naifeijdmx.json`  `https://tt.naifeimi.com/naifei.f.api/naifeijdm.json`
