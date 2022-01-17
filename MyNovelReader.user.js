@@ -1,4 +1,4 @@
-	// ==UserScript==
+// ==UserScript==
 // @id             mynovelreader@ywzhaiqi@gmail.com
 // @name           My Novel Reader
 // @name:zh-CN     小说阅读脚本
