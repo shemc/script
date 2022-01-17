@@ -6,7 +6,7 @@
 // @version        5.6.9
 // @namespace      https://github.com/ywzhaiqi
 // @author         ywzhaiqi
-// @contributor    Roger Au, shyangs, JixunMoe、akiba9527 及其他网友
+// @contributor    Roger Au, shyangs, JixunMoe、akiba9527 及其他网友。
 // @description    小说阅读脚本，统一阅读样式，内容去广告、修正拼音字、段落整理，自动下一页
 // @description:zh-CN  小说阅读脚本，统一阅读样式，内容去广告、修正拼音字、段落整理，自动下一页
 // @description:zh-TW  小說閱讀腳本，統一閱讀樣式，內容去廣告、修正拼音字、段落整理，自動下一頁
