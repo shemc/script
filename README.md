@@ -12,6 +12,9 @@
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json`
   - 猫配置 
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://wwi.lanzoui.com/izRMJv45llc) 代号：`miao`
-   - TT `https://glot.io/snippets/g36qyh9qg6/raw/mao.txt`         精简版 `https://netcut.cn/p/f90d62b2cfa07b6c`
-   -   `https://gitlab.com/tzhlzt/CatVodTVSpider/-/raw/master/api/jdm.json`   `https://gitlab.com/tzhlzt/CatVodTVSpider/-/raw/master/api/jdm_s.json `
-   -   `https://tt.naifeimi.com/naifei.f.api/naifeijdmxx.json`  `https://tt.naifeimi.com/naifei.f.api/naifeijdmx.json`  `https://tt.naifeimi.com/naifei.f.api/naifeijdm.json`
+   - 唐三 `https://maoys.c1n.cn`         coding `https://mo-xiao.coding.net/p/c/d/c/git/raw/master/maoys.json`
+   -   `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`   `https://gitlab.com/tzhlzt/CatVodTVSpider/-/raw/master/api/jdm_s.json `
+   -   `https://raw.fastgit.org/hd9211/maotv/main/maotv1.txt`  `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/maotv1.txt` 
+   -    `https://tt.naifeimi.com/naifei.f.api/naifeijdm.json`  `http://pglblb.test.upcdn.net/mao.json`  `https://raw.fastgit.org/pglblb/pglblb/main/2022.json`  `https://cdn.jsdelivr.net/gh/pglblb/pglblb@main/2022.json`  `https://gitlab.com/hstsws008/dizhi/-/raw/main/mao/20220306.txt`
+ - 残影配置
+  - `https://raw.fastgit.org/hd9211/maotv/main/cyys.txt`   `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/cyys.txt`    `https://shemc.coding.net/p/smc/d/cy/git/raw/master/cy.json`
