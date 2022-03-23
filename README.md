@@ -10,6 +10,7 @@
 ###  脚本大佬
   -  [wjx0428](https://github.com/wjx0428/wjx/tree/main/oneself)
   -  [lyj52](https://github.com/lyj52/jzy)
+  -  [JDWXX](https://github.com/JDWXX/ql_all)
 ### 视频app配置文件
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json`
