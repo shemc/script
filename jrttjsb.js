@@ -1,51 +1,45 @@
 /*
+今日头条极速版
 IOS/安卓: 今日头条极速版
 邀请码： Q90185731
-
-const $ = new Env('今日头条极速版');
-
 老用户每天几毛，新用户可能收益高点
 普通版定时： 1-59/15 6-23 * * *
 激进版定时： 1-59/5 * * * *
 多用户跑的时间会久一点，自己看着改定时吧
-
 自定义UA：捉包拿到自己的UA，填到变量jrttjsbUA里，不填默认用安卓UA
 自定义每次运行阅读文章的数量：填到变量jrttjsbReadNum，不填默认10篇
-农场和种树任务：默认不做，需要做的，把变量jrttjsbFarm填为1
-
-V2P重写：
+农场和种树任务：默认做，变量jrttjsbFarm填为 1 做 0 不做
+感谢原作者提供的脚本 https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js
+脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+============Quantumultx===============
 [task_local]
 #今日头条极速版
-1-59/15 6-23 * * *  https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js, tag=今日头条极速版, enabled=true
-[rewrite_local]
-luckycat\/lite\/v1\/task\/page_data url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js
-[MITM]
-#每个人的域名不同，都放进去MITM吧，还捉不到就自行捉包填写
-hostname = *.snssdk.com
-hostname = *.toutiaoapi.com
+1-59/15 6-23 * * * https://github.com/JDWXX/ql_all/blob/master/qt/aqc/jrttjsb.js, tag=今日头条极速版, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true
 
-青龙把极速版捉包里面的cookie放到jrttjsbHeader里，多账户用@隔开
+================Loon==============
+[Script]
+cron "1-59/15 6-23 * * *" script-path=https://github.com/JDWXX/ql_all/blob/master/qt/aqc/jrttjsb.js,tag=今日头条极速版
+
+===============Surge=================
+今日头条极速版 = type=cron,cronexp="1-59/15 6-23 * * *",wake-system=1,timeout=3600,script-path=https://github.com/JDWXX/ql_all/blob/master/qt/aqc/jrttjsb.js
+
+============小火箭=========
+今日头条极速版 = type=cron,script-path=https://github.com/JDWXX/ql_all/blob/master/qt/aqc/jrttjsb.js, cronexpr="1-59/15 6-23 * * *", timeout=3600, enable=true
 */
-
-const jsname = '今日头条极速版'
-const $ = Env(jsname)
+const $ = new Env('今日头条极速版');
 const notifyFlag = 1; //0为关闭通知，1为打开通知,默认为1
 const logDebug = 0
-
 //const notify = $.isNode() ? require('./sendNotify') : '';
 let notifyStr = ''
-
 let rndtime = "" //毫秒
 let httpResult //global buffer
-
 let host = 'i.snssdk.com'
 let hostname = 'https://' + host
-
 let userAgent = ($.isNode() ? process.env.jrttjsbUA : $.getdata('jrttjsbUA')) || 'Dalvik/2.1.0 (Linux; U; Android 7.1.2; VOG-AL10 Build/HUAWEIVOG-AL10) NewsArticle/8.2.8 tt-ok/3.10.0.2';
 let userAgentArr = []
 let userHeader = ($.isNode() ? process.env.jrttjsbHeader : $.getdata('jrttjsbHeader')) || '';
 let userHeaderArr = []
-let jrttjsbFarm = ($.isNode() ? process.env.jrttjsbFarm : $.getdata('jrttjsbFarm')) || 0;
+let jrttjsbFarm = ($.isNode() ? process.env.jrttjsbFarm : $.getdata('jrttjsbFarm')) || 1;
 
 let userIdx = 0
 let UAcount = 0
@@ -55,7 +49,7 @@ let readList = []
 
 let validList = []
 let adIdList = [26, 181, 186, 187, 188, 189, 190, 195, 210, 214, 216, 225, 308, 324, 327, 329]
-        
+
 ///////////////////////////////////////////////////////////////////
 
 !(async () => {
@@ -67,29 +61,29 @@ let adIdList = [26, 181, 186, 187, 188, 189, 190, 195, 210, 214, 216, 225, 308, 
     else
     {
         await showUpdateMsg()
-        
+
         if(!(await checkEnv())) {
             return
         }
-        
+
         await initAccountInfo()
         await RunMultiUser()
     }
-  
+
 
 })()
-.catch((e) => $.logErr(e))
-.finally(() => $.done())
+    .catch((e) => $.logErr(e))
+    .finally(() => $.done())
 
 function showUpdateMsg() {
-    console.log('\n2021.12.14 15:40 更新：默认不做农场和浇水任务，收益太低。可以自定义每次阅读的文章数量，填在变量jrttjsbReadNum里\n')
+    console.log('\n2021.12.15 9:30 更新：增加推送奖励，修复一个UA的bug，更改默认UA为安卓\n')
 }
 
 //通知
 async function showmsg() {
-    
-    notifyBody = jsname + "运行通知\n\n" + notifyStr
-    
+
+    notifyBody = $.name + "运行通知\n\n" + notifyStr
+
     if (notifyFlag != 1) {
         console.log(notifyBody);
     }
@@ -103,17 +97,17 @@ async function showmsg() {
 async function GetRewrite() {
     if($request.url.indexOf('luckycat/lite/v1/task/page_data') > -1) {
         let userCK = $request.headers.Cookie
-        
+
         if(userHeader) {
             if(userHeader.indexOf(userCK) == -1) {
                 userHeader = userHeader + '@' + userCK
                 $.setdata(userHeader, 'jrttjsbHeader');
                 ckList = userHeader.split('@')
-                $.msg(jsname+` 获取第${ckList.length}个jrttjsbHeader成功: ${userCK}`)
+                $.msg($.name+` 获取第${ckList.length}个jrttjsbHeader成功: ${userCK}`)
             }
         } else {
             $.setdata(userCK, 'jrttjsbHeader');
-            $.msg(jsname+` 获取第1个jrttjsbHeader成功: ${userCK}`)
+            $.msg($.name+` 获取第1个jrttjsbHeader成功: ${userCK}`)
         }
     }
 }
@@ -129,7 +123,7 @@ async function checkEnv() {
         console.log('未找到有效的jrttjsbHeader')
         return false
     }
-    
+
     if(userAgent) {
         userAgentArr = userAgent.split('@')
     } else {
@@ -137,7 +131,7 @@ async function checkEnv() {
         return false
     }
     UAcount = userAgentArr.length
-    
+
     console.log(`共找到${userHeaderArr.length}个用户，${UAcount}个UA`)
     return true
 }
@@ -157,19 +151,19 @@ async function RunMultiUser() {
             await QuerySleepStatus()
             await QueryWalkInfo()
             await DoneEat()
-            
+
             for(let adId of adIdList) await ExcitationAd(adId)
             //console.log(validList)
-            
+
         }
     }
-    
+
     await ReadArticles()
-    
+
     for(userIdx=0; userIdx<userHeaderArr.length; userIdx++) {
         if(userStatus[userIdx]==true) await QueryUserInfo(0)
     }
-    
+
     if(jrttjsbFarm) {
         for(userIdx=0; userIdx<userHeaderArr.length; userIdx++) {
             if(userStatus[userIdx]==true) {
@@ -181,7 +175,7 @@ async function RunMultiUser() {
                 await QueryFarmLandStatus()
                 await QueryFarmSignStatus()
                 await QueryFarmTask()
-                
+
                 //种树
                 await QueryTreeChallenge()
                 await QueryTreeSignStatus()
@@ -191,7 +185,7 @@ async function RunMultiUser() {
             }
         }
     }
-    
+
 }
 
 //阅读列表
@@ -222,6 +216,7 @@ async function ReadArticles() {
         if(userStatus[userIdx]==true) {
             await ReadDouble()
             await DailyArtsReward()
+            await DailyPushReward()
         }
     }
     for(let i=0; i<maxReadPerRun; i++) {
@@ -268,9 +263,27 @@ async function DailyArtsReward() {
     if(!result) return
     //console.log(result)
     if(result.err_no==0) {
-        console.log(`用户${userIdx+1}领取每日阅读奖励获得${result.data.score_amount}金币(${result.data.icon_data.done_times}/${result.data.icon_data.read_limit})`)
+        console.log(`用户${userIdx+1}领取每日阅读奖励获得${result.data.score_amount}金币`)
     } else {
         console.log(`用户${userIdx+1}领取每日阅读奖励失败：${result.err_tips}`)
+    }
+}
+
+//每日推送奖励
+async function DailyPushReward() {
+    let caller = printCaller()
+    let timeInMS = Math.round(new Date().getTime())
+    let rndGroupId = Math.floor(Math.random()*7000000000000000000)
+    let url = `${hostname}/score_task/v1/task/get_read_bonus/?aid=35&update_version_code=85221&os_version=15.0&device_platform=iphone&group_id=${rndGroupId}&impression_type=push`
+    let urlObject = populateGetUrl(url)
+    await httpGet(urlObject,caller)
+    let result = httpResult;
+    if(!result) return
+    //console.log(result)
+    if(result.err_no==0) {
+        console.log(`用户${userIdx+1}领取每日推送奖励获得${result.data.score_amount}金币`)
+    } else {
+        console.log(`用户${userIdx+1}领取每日推送奖励失败：${result.err_tips}`)
     }
 }
 
@@ -290,7 +303,6 @@ async function ReadDouble() {
         console.log(`用户${userIdx+1}阅读翻倍：${result.err_tips}`)
     }
 }
-
 
 async function GetNewTabs() {
     let caller = printCaller()
@@ -496,7 +508,7 @@ async function QuerySleepStatus() {
                 await SleepStop()
             } else if(result.data.sleep_unexchanged_score==result.data.max_coin && curHour >= 7) {
                 let rnd = Math.random()
-                if(rnd>0.90) {
+                if(rnd>0.95) {
                     await SleepStop()
                 } else {
                     console.log(`用户${userIdx+1}随机醒来时间，本次不进行醒来，已经睡了${sleepHour}小时，可以获得${result.data.sleep_unexchanged_score}金币`)
@@ -512,7 +524,7 @@ async function QuerySleepStatus() {
                 await SleepStart()
             } else if(curHour >= 20) {
                 let rnd = Math.random()
-                if(rnd>0.90) {
+                if(rnd>0.95) {
                     await SleepStart()
                 } else {
                     console.log(`用户${userIdx+1}随机睡眠时间，本次不进行睡眠`)
@@ -547,8 +559,9 @@ async function SleepStop() {
 //睡觉收金币
 async function SleepDone(amount) {
     let caller = printCaller()
-    let url = `${hostname}/luckycat/lite/v1/sleep/done_task/?_request_from=web&scm_build_version=1.0.0.1437&version_code=8.5.2&tma_jssdk_version=2.25.0.11&app_name=news_article_lite&channel=App%20Store&resolution=1170*2532&aid=35&ab_version=668907,3485378,3491710,668905,3491678,668906,3491686,668904,3491669,668903,3491704,1859936,668908,3491714,3269751,3472847&ab_feature=794526&review_flag=0&ab_group=794526&subchannel=unknown&update_version_code=85221&ac=WIFI&os_version=15.0&ssmix=a&device_platform=iphone&ab_client=a1,f2,f7,e1&device_type=iPhone13,2`
-    let body = `{"score_amount" : ${amount}}`
+    let timeInMS = Math.round(new Date().getTime())
+    let url = `${hostname}/luckycat/lite/v1/sleep/done_task/?os_api=25&device_type=VOG-AL10&ssmix=a&manifest_version_code=8280&dpi=240&abflag=3&pass_through=default&use_ecpm=0&rom_version=25&rit=coin&app_name=news_article_lite&ab_client=a1%2Ce1%2Cf2%2Cg2%2Cf7&version_name=8.2.8&ab_version=668903%2C3491704%2C1859936%2C668908%2C3491714%2C668907%2C3491710%2C668905%2C3491678%2C668906%2C3491686%2C668904%2C3491669%2C3269751%2C3472846%2C3493942&plugin_state=7731332411413&sa_enable=0&ac=wifi&_request_from=web&update_version_code=82809&channel=lite2_tengxun&_rticket=${timeInMS}&status_bar_height=24&dq_param=0&device_platform=android&iid=1592553870724568&scm_build_version=1.0.0.1454&mac_address=88%3AB1%3A11%3A61%3A96%3A7B&version_code=828&polaris_version=1.0.5&tma_jssdk_version=1.95.0.28&is_pad=1&resolution=720*1280&os_version=7.1.2&language=zh&device_brand=HUAWEI&aid=35&ab_feature=z1&luckycat_version_name=4.2.0-rc.5&luckycat_version_code=420005`
+    let body = `{"score_amount":${amount},"enable_preload_exciting_video":0}`
     let urlObject = populatePostUrl(url,body)
     await httpPost(urlObject,caller)
     let result = httpResult;
@@ -612,7 +625,7 @@ async function EnterFarm() {
     if(!result) return
     console.log(result)
     if(result.status_code == 0) {
-        
+
     } else {
         console.log(`用户${userIdx+1}进入农场失败：${result.message}`)
     }
@@ -1155,7 +1168,7 @@ function populatePostUrl(url,reqBody=''){
             'passport-sdk-version' : '30',
             'sdk-version' : '2',
             'x-vc-bdturing-sdk-version' : '2.0.0',
-            'User-Agent' : userAgent[userIdx%UAcount],
+            'User-Agent' : userAgentArr[userIdx%UAcount],
             'Cookie' : userHeaderArr[userIdx],
             'X-Khronos' : timeInSecond,
             'Content-Type' : 'application/json; charset=utf-8',
@@ -1178,7 +1191,7 @@ function populateGetUrl(url){
             'passport-sdk-version' : '30',
             'sdk-version' : '2',
             'x-vc-bdturing-sdk-version' : '2.0.0',
-            'User-Agent' : userAgent[userIdx%UAcount],
+            'User-Agent' : userAgentArr[userIdx%UAcount],
             'Cookie' : userHeaderArr[userIdx],
             'X-Khronos' : timeInSecond,
             'Content-Type' : 'application/json; charset=utf-8',
