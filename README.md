@@ -26,4 +26,4 @@
    - `https://raw.fastgit.org/hd9211/maotv/main/cyys.txt`   `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/cyys.txt`    `https://shemc.coding.net/p/smc/d/cy/git/raw/master/cy.json`
 
 ### 直播聚合 
- - [防失联](http://api.hclyz.com:81/mf/json.txt)  [最新地址](api.hclyz.com:81/mf/yuncaidan.txt) [json格式](http://api.hclyz.com:81/mf/json.txt)
+ - [防失联](https://www.ebay.com/usr/xiar2792)  [最新地址](api.hclyz.com:81/mf/yuncaidan.txt) [json格式](http://api.hclyz.com:81/mf/json.txt)
