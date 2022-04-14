@@ -20,7 +20,8 @@
    - 唐三 `https://maoys.c1n.cn`                      coding `https://mo-xiao.coding.net/p/c/d/c/git/raw/master/maoys.json`
    -   `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`   
    -   `https://raw.fastgit.org/hd9211/maotv/main/maotv1.txt`  `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/maotv1.txt` 
-   -    `https://tt.naifeimi.com/naifei.f.api/naifeijdm.json`        `http://pglblb.test.upcdn.net/mao.json`  `https://raw.fastgit.org/pglblb/pglblb/main/2022.json`  `https://cdn.jsdelivr.net/gh/pglblb/pglblb@main/2022.json`  `https://gitlab.com/hstsws008/dizhi/-/raw/main/mao/20220306.txt`  `https://github.com/ColaMint`
+   -    `https://tt.naifeimi.com/naifei.f.api/naifeijdm.json`        `http://pglblb.test.upcdn.net/mao.json`  `https://raw.fastgit.org/pglblb/pglblb/main/2022.json`  `https://cdn.jsdelivr.net/gh/pglblb/pglblb@main/2022.json`  `https://gitlab.com/hstsws008/dizhi/-/raw/main/mao/20220306.txt`  
+   -    `https://github.com/ColaMint`
       
  - 残影配置
    - `https://raw.fastgit.org/hd9211/maotv/main/cyys.txt`   `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/cyys.txt`    `https://shemc.coding.net/p/smc/d/cy/git/raw/master/cy.json`
