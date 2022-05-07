@@ -3,7 +3,7 @@
 // @name           My Novel Reader
 // @name:zh-CN     小说阅读脚本
 // @name:zh-TW     小說閱讀腳本
-// @version        6.4.2
+// @version        6.4.3
 // @namespace      https://github.com/ywzhaiqi
 // @author         ywzhaiqi
 // @contributor    Roger Au, shyangs, JixunMoe、akiba9527 及其他网友
@@ -1508,7 +1508,7 @@
             /(百度搜索 )?本书名 \+ 盗梦人 看最快更新/ig,
             "520xs.com ”520小说“小说章节更新最快",
             "看最新最全小说|最快更新，(?:无弹窗)?阅读请。",
-            "纯文字在线阅读本站域名  手机同步阅读请访问",
+            "纯文字在线阅读本站域名  手机同步阅读请访问",
             "本文由　……　首发",
             "（首发）|【首发】",
             "&amp;nbsp",
@@ -1937,7 +1937,10 @@
       mutationSelector: "#J_BookRead",  // 内容生成监视器
           mutationChildCount: 1,
       contentSelector: '#J_BookRead',
-      contentRemove: 'i.J_Num',
+      contentRemove: 'i.J_Num, .chapter span',
+      contentPatch: function($doc) {
+          $doc.find('.chapter span').remove();
+      }
     },
     {siteName: '斋书苑 | 次元猫',
       exampleUrl: 'https://www.zhaishuyuan.com/chapter/30754/19407713',
