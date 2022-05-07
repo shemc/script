@@ -17,16 +17,39 @@
 (function() {
   'use strict';
     //全局配置
+    //获取cookie值
+    var index = getCookie("CName");
+    if(index==null){index=0}
     var config = {
-        //配置版本号
-        version:1,
-        //支持的书源地址
-        webSites : ["http://www.wbxsw.com/","http://www.tbxsw.com/","https://www.dushuge.org/","https://www.biqugee.com/","https://www.mibaoge.com/"],
-        //书源描述
-        webDesc:["58小说网","官术网","读书阁","笔趣阁1","笔趣阁2"],
-        //正在使用的书源
-        webSiteIndex : 0
-    }
+    //配置版本号
+    version:1,
+    //支持的书源地址
+    webSites : ["http://www.wbxsw.com/","http://www.tbxsw.com/","https://www.dushuge.org/","https://www.biqugee.com/","https://www.mibaoge.com/"],
+    //书源描述
+    webDesc:["58小说网","官术网","读书阁","笔趣阁1","笔趣阁2"],
+    //正在使用的书源
+    webSiteIndex : index
+  }
+    //增加cookie缓存
+function setCookie(index){
+var stringValue=index;//需要存的数据
+var oDate = new Date();
+oDate.setTime(oDate.getTime() + 1* 24 * 60 * 60 * 1000);//设置过期时间
+var cookieString = "CName=" + stringValue + ";expires='" + oDate.toGMTString() + ";path=/";
+document.cookie = cookieString;//存cookie
+}
+
+//获取指定名称的cookie的值
+function getCookie(objName){
+var arrStr = document.cookie.split("; ");
+for (var i = 0; i < arrStr.length; i++) {
+var temp = arrStr[i].split("=");
+if (temp[0] == objName){
+return decodeURI(temp[1]);
+}
+}
+}
+
     //注册的菜单和对应执行的函数
     var menus = [
     {
@@ -71,7 +94,11 @@ ${bookhtml}
 </select>
 </li>`
         document.querySelector(".setting-list-wrap").firstElementChild.appendChild(e)
-        document.querySelector("#select").onchange = function(){mergeOne(document.querySelector("#select").value)}
+        document.querySelector("#select").onchange = function(){
+            var index=document.querySelector("#select").value
+            mergeOne(index)
+            setCookie(index)
+        }
     }
     //提示用户
     function notify(title = '操作成功',type = 'success',show = true){
@@ -118,23 +145,29 @@ ${bookhtml}
     }
 
     //将请求的url的html内容转化成document对象
-    async function parseDocFromAjax(method,url){
-      return new Promise((resolve,reject) => {
-          GM_xmlhttpRequest({
-              method,
-              url,
-              onload:(res) => {
-                console.log(res)
-                  let htmldoc = document.createElement('html')
-                  htmldoc.innerHTML = res.response
-                  resolve(htmldoc)
-              },
-              onerror:(err) => {
-                  reject(err)
-              }
-          })
-      })
-    }
+async function parseDocFromAjax(method,url){
+return new Promise((resolve,reject) => {
+GM_xmlhttpRequest({
+method,
+url,
+dataType:'jsonp',
+onload:(res) => {
+// console.log(res)
+let htmldoc = document.createElement('html')
+let htmlstr = res.responseText
+htmlstr=htmlstr.replace(/http/g, "https")
+htmlstr=htmlstr.replace(/img src/g, "a url")
+htmlstr=htmlstr.replace(/onerror/g, "class")
+htmldoc.innerHTML = htmlstr
+
+resolve(htmldoc)
+},
+onerror:(err) => {
+reject(err)
+}
+})
+})
+}
 
     //搜索小说并返回结果
     async function searchBook(){
@@ -192,26 +225,26 @@ ${bookhtml}
         console.log('抓取目录失败')
       }
       //获取章节名
-for(let i in clist){
-let tit = '' + clist[i].title
-let str = tit
-tit = tit.replace(' ','')
-//console.log('匹配',tit,QDgetBookChapter())
-var patt1 =/[a-zA-Z\u4e00-\u9fa5]+/g
-var patt2 =/[0-9]+/g
-str = QDgetBookChapter()
-if(tit.match(patt1)==null){
-tit = tit.match(patt2)
-str = str.match(patt2)
-}
-else if(str.match(patt1)==null){
-str = str.match(patt2)
-tit = tit.match(patt2)==null?tit.match(patt1):tit.match(patt2)
-}
-else{
-str = str.match(patt1)
-tit = tit.match(patt1)
-}
+      for(let i in clist){
+      let tit = '' + clist[i].title
+      let str = tit
+      tit = tit.replace(' ','')
+      //console.log('匹配',tit,QDgetBookChapter())
+      var patt1 =/[a-zA-Z\u4e00-\u9fa5]+/g
+      var patt2 =/[0-9]+/g
+      str = QDgetBookChapter()
+      if(tit.match(patt1)==null){
+      tit = tit.match(patt2)
+      str = str.match(patt2)
+     }
+     else if(str.match(patt1)==null){
+     str = str.match(patt2)
+     tit = tit.match(patt2)==null?tit.match(patt1):tit.match(patt2)
+     }
+     else{
+      str = str.match(patt1)
+       tit = tit.match(patt1)
+    }
 
 if(str.toString()==tit.toString()){
 console.log('检查到结果')
