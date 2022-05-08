@@ -18,11 +18,12 @@
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json`
   - 猫配置 
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://wwi.lanzoui.com/izRMJv45llc) 代号：`miao`
-   - 唐三 `https://maoys.c1n.cn`                      coding `https://mo-xiao.coding.net/p/c/d/c/git/raw/master/maoys.json`
+   - 唐三 `https://c1n.cn/cat`                     
    -   `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`   
-   -   `https://raw.fastgit.org/hd9211/maotv/main/maotv1.txt`  `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/maotv1.txt` 
-   -    `https://tt.naifeimi.com/naifei.f.api/naifeijdm.json`        `http://pglblb.test.upcdn.net/mao.json`  `https://raw.fastgit.org/pglblb/pglblb/main/2022.json`  `https://cdn.jsdelivr.net/gh/pglblb/pglblb@main/2022.json`  `https://gitlab.com/hstsws008/dizhi/-/raw/main/mao/20220306.txt`  
-   -    `https://github.com/ColaMint`
+   - 🐉明   `https://colamint.coding.net/p/colacat/d/ColaCat/git/raw/master/a`  `https://xm.c1n.cn/` 
+   - 🐱S  `https://c1n.cn/cat`        `http://gg.gg/cat667`  `https://3x9r.short.gy` 
+   - yoyo82520缝合 `https://raw.githubusercontent.com/yoyo82520/huaiptv/3f2dd11c22bdfb87f9f96e4e808894ff77c29c7e/mhao.json`  
+ 
       
  - 残影配置
    - `https://raw.fastgit.org/hd9211/maotv/main/cyys.txt`   `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/cyys.txt`    `https://shemc.coding.net/p/smc/d/cy/git/raw/master/cy.json`
