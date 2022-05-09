@@ -23,7 +23,7 @@
    - 🐱S    `https://c1n.cn/cat`        `http://gg.gg/cat667`  `https://3x9r.short.gy` 
    - yoyo82520缝合 `https://raw.githubusercontent.com/yoyo82520/huaiptv/3f2dd11c22bdfb87f9f96e4e808894ff77c29c7e/mhao.json`  
    - hd9211 `https://cdn.jsdelivr.net/gh/hd9211/maotv/maotv1.txt`
-   -       `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`
+   - `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`
  
       
  - 残影配置
