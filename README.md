@@ -14,6 +14,7 @@
   -  [JDWXX](https://github.com/JDWXX/ql_all)
   -  [leafxcy](https://github.com/leafxcy/JavaScript)
   -  [liyiboa](https://github.com/liyiboa/ksjsb)
+  _  [白嫖节点](https://github.com/arielherself/autosub)
 ### 视频app配置文件
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json`
