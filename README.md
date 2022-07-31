@@ -18,7 +18,8 @@
 ### 视频app配置文件
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json`
-  - 猫配置 
+  - TVBox配置 
+   - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC)
    - [懒人包](https://github.com/YuanHsing/freed)
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://wwi.lanzoui.com/izRMJv45llc) 代号：`miao`
    - 唐三 `https://c1n.cn/cat`    
