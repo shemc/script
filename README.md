@@ -15,6 +15,7 @@
   -  [leafxcy](https://github.com/leafxcy/JavaScript)
   -  [liyiboa](https://github.com/liyiboa/ksjsb)
   -  [白嫖节点](https://github.com/arielherself/autosub)
+  -  [免费节点](https://github.com/alanbobs999/TopFreeProxies)
 ### 视频app配置文件
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json`
