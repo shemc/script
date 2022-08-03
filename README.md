@@ -37,3 +37,6 @@
 
 ### 直播聚合 
  - [防失联](https://www.ebay.com/usr/xiar2792) 最新地址 `api.hclyz.com:81/mf/yuncaidan.txt` [json格式](http://api.hclyz.com:81/mf/json.txt)
+ 
+### 直播订阅
+ - [m3u](https://github.com/vamoschuck/TV)
