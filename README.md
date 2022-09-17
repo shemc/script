@@ -39,4 +39,8 @@
  - [防失联](https://www.ebay.com/usr/xiar2792) 最新地址 `api.hclyz.com:81/mf/yuncaidan.txt` [json格式](http://api.hclyz.com:81/mf/json.txt)
  
 ### 直播订阅
- - [m3u](https://github.com/vamoschuck/TV)
+ - [m3u](https://github.com/vamoschuck/TV)https://ghproxy.com/https://github.com/vamoschuck/TV/blob/main/M3U
+ - https://chiguren.github.io/tv/live.txt
+ - https://shadowchiu369.github.io/TVBox/tv/sclive.txt
+ - https://gitcode.net/qq_26898231/TVBox/-/raw/main/live/zb.txt
+ - https://gitcode.net/kuukey/a/-/raw/master/tvlive.txt
