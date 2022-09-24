@@ -24,7 +24,7 @@
    - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC)
    - [懒人包](https://github.com/YuanHsing/freed)
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://wwi.lanzoui.com/izRMJv45llc) 代号：`miao`
-   - liu673cn `https://github.com/liu673cn/box`    
+   - [liu673cn](https://github.com/liu673cn/box) `https://raw.liucn.cc/box/m.json`    
    - [B佬](https://github.com/madaodei/baddychen0608)
    - 🐉明   `https://colamint.coding.net/p/colacat/d/ColaCat/git/raw/master/a`  `https://xm.c1n.cn/` 
    - 🐱S    `https://c1n.cn/cat`        `http://gg.gg/cat667`  `https://3x9r.short.gy` 
@@ -33,7 +33,7 @@
    - `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`
  
  - Biubiu
-   - liu673cn `https://github.com/liu673cn/xbb` 
+   - [liu673cn](https://github.com/liu673cn/xbb) `https://raw.iqiq.io/liu673cn/xbb/main/xbb.txt` 
  
  - 残影配置
    - `https://raw.fastgit.org/hd9211/maotv/main/cyys.txt`   `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/cyys.txt`    `https://shemc.coding.net/p/smc/d/cy/git/raw/master/cy.json`
