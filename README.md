@@ -34,7 +34,7 @@
  
  - Biubiu
    - [liu673cn](https://github.com/liu673cn/xbb) `https://raw.iqiq.io/liu673cn/xbb/main/xbb.txt` 
-        `https://freed.yuanhsing.cf/BiuBiu/bb测试版.txt`
+   - `https://freed.yuanhsing.cf/BiuBiu/bb测试版.txt`
  
  - 残影配置
    - `https://raw.fastgit.org/hd9211/maotv/main/cyys.txt`   `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/cyys.txt`    `https://shemc.coding.net/p/smc/d/cy/git/raw/master/cy.json`
