@@ -27,14 +27,14 @@
    - [liu673cn](https://github.com/liu673cn/box) `https://raw.liucn.cc/box/m.json`    
    - [B佬](https://github.com/madaodei/baddychen0608)
    - 🐉明   `https://colamint.coding.net/p/colacat/d/ColaCat/git/raw/master/a`  `https://xm.c1n.cn/` 
-   - 🐱S    `https://c1n.cn/cat`        `http://gg.gg/cat667`  `https://3x9r.short.gy` 
+   - yuanhsing    `https://freed.yuanhsing.cf/TVBox/meowcf2.json`  
    - yoyo82520缝合 `https://raw.githubusercontent.com/yoyo82520/huaiptv/3f2dd11c22bdfb87f9f96e4e808894ff77c29c7e/mhao.json`  
    - [hd9211](https://github.com/hd9211/maotv) `https://cdn.jsdelivr.net/gh/hd9211/maotv/maotv1.txt`
    - `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`
  
  - Biubiu
    - [liu673cn](https://github.com/liu673cn/xbb) `https://raw.iqiq.io/liu673cn/xbb/main/xbb.txt` 
-   - `https://freed.yuanhsing.cf/BiuBiu/bb测试版.txt`
+   - yuanhsing `https://freed.yuanhsing.cf/BiuBiu/bb测试版.txt`
  
  - 残影配置
    - `https://raw.fastgit.org/hd9211/maotv/main/cyys.txt`   `https://cdn.jsdelivr.net/gh/hd9211/maotv@main/cyys.txt`    `https://shemc.coding.net/p/smc/d/cy/git/raw/master/cy.json`
