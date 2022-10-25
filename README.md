@@ -48,3 +48,6 @@
  - `https://shadowchiu369.github.io/TVBox/tv/sclive.txt`
  - `https://gitcode.net/qq_26898231/TVBox/-/raw/main/live/zb.txt`
  - `https://gitcode.net/kuukey/a/-/raw/master/tvlive.txt`
+
+###  CDN加速
+ - https://fastly.jsdelivr.net/gh/
