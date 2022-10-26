@@ -51,3 +51,5 @@
 
 ###  CDN加速
  - https://fastly.jsdelivr.net/gh/
+ - https://cdn.jsdelivr.net/gh/账号名称/项目名/
+ - https://raw.fastgit.org/
