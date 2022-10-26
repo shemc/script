@@ -50,6 +50,11 @@
  - `https://gitcode.net/kuukey/a/-/raw/master/tvlive.txt`
 
 ###  CDN加速
- - https://fastly.jsdelivr.net/gh/
- - https://cdn.jsdelivr.net/gh/账号名称/项目名/
- - https://raw.fastgit.org/
+ - `https://fastly.jsdelivr.net/gh/`
+ - `https://cdn.jsdelivr.net/gh/`
+ - `https://raw.githubusercontents.com/`
+ - `https://raw.fastgit.org/`
+ - `https://ghproxy.com/`
+ - `https://gitcdn.top/`
+ - `https://raw.githubusercontents.com/`
+
