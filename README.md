@@ -52,9 +52,10 @@
 ###  CDN加速
  - `https://fastly.jsdelivr.net/gh/`
  - `https://cdn.jsdelivr.net/gh/`
+ - `https://purge.jsdelivr.net/gh/`
  - `https://raw.githubusercontents.com/`
  - `https://raw.fastgit.org/`
  - `https://ghproxy.com/`
  - `https://gitcdn.top/`
- - `https://raw.githubusercontents.com/`
+ 
 
