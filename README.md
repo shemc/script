@@ -41,6 +41,7 @@
 
 ### 直播聚合 
  - [防失联](https://www.ebay.com/usr/xiar2792) 最新地址 `api.hclyz.com:81/mf/yuncaidan.txt` [json格式](http://api.hclyz.com:81/mf/json.txt)
+ - [营养快线m3u源](https://github.com/YanG-1989/m3u)
  
 ### 直播订阅
  - [m3u](https://github.com/vamoschuck/TV)`https://ghproxy.com/https://github.com/vamoschuck/TV/blob/main/M3U`
