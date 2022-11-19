@@ -26,7 +26,8 @@
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://wwi.lanzoui.com/izRMJv45llc) 代号：`miao`
    - [liu673cn](https://github.com/liu673cn/box) `https://raw.liucn.cc/box/m.json`    
    - [B佬](https://github.com/madaodei/baddychen0608)
-   - heroaku   `https://github.com/heroaku/TVboxo`   
+   - heroaku[heroaku
+]   `https://github.com/heroaku/TVboxo`   
    - yuanhsing    `https://freed.yuanhsing.cf/TVBox/meowcf2.json`  
    - yoyo82520缝合 `https://raw.githubusercontent.com/yoyo82520/huaiptv/3f2dd11c22bdfb87f9f96e4e808894ff77c29c7e/mhao.json`  
    - [hd9211](https://github.com/hd9211/maotv) `https://cdn.jsdelivr.net/gh/hd9211/maotv/maotv1.txt`
