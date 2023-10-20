@@ -5,7 +5,7 @@
 // @author       JiGuang
 // @namespace    www.xyde.net.cn
 // @homepageURL  http://www.xyde.net.cn
-// @match        https://www.qidian.com/chapter*
+// @match        https://www.qidian.com/chapter/*
 // @match        https://read.qidian.com/chapter/*
 // @match        *://book.zongheng.com/chapter/*/*.html
 // @require https://cdn.jsdelivr.net/npm/sweetalert2@11
@@ -25,6 +25,7 @@
      //获取cookie值
     var index = getCookie("choice");
     var times = getCookie("times");
+    var csrfToken = getCookie("_csrfToken");
     if(index==null){index=0}
     if(times==null){times=0}
     var config = {
@@ -34,19 +35,20 @@
         //步骤1
         webSites :
         ["https://souxs.leeyegy.com/search.aspx?key=",
-         "http://www.dushuge.com/gdsuisfguigsdugiusiuesu.php?ie=gbk&q=",
+         "http://www.dushuge.com/hsdgiohsdigohsog.php?ie=gbk&q=",
          "https://www.disixs.com/search.php?keyword=",
          "https://so.biqusoso.com/s2.php?ie=utf-8&siteid=qu-la.com&q=",
          "http://www.b5200.net/modules/article/search.php?searchkey=",
-         "http://www.siluke.cc/search.html?name="
+         "http://www.siluke.cc/search.html?name=",
+         "https://69shu.net/s.php="
         ],
         //跳转网址：用于修正脚本读取章节地址自动把起点前缀拼接起来
         //步骤1
-        webGo: ['https://quapp.shenbabao.com/book/','http://www.dushuge.com','https://www.disixs.com','https://www.qu-la.com','http://www.b5200.net/','http://www.siluke.cc'],
+        webGo: ['https://quapp.shenbabao.com/book/','http://www.dushuge.com','https://www.disixs.com','https://www.qu-la.com','http://www.b5200.net/','http://www.siluke.cc','https://69shu.net/'],
         //网页内容：F12查看页面元素 找到章节文字所在的标签id
-        webContent:["",'#content','#content','#txt','#content','#content'],
+        webContent:["",'#content','#content','#txt','#content','#content',"novelcontent"],
         //书源描述
-        webDesc:["参八宝","读书阁","58小说网","官术网","书趣阁","思路客"],
+        webDesc:["参八宝","读书阁","58小说网","官术网","书趣阁","思路客","69书吧"],
         //正在使用的书源
         webSiteIndex : index,
         //搜索前缀:
@@ -58,9 +60,9 @@
         //步骤5：0 代表第一个字符串
         webReturn:[0,2,0,1,0,0],
         //书源类型:0代表网页书源，1代表api请求书源
-        webType:[1,0,0,0,0,0],
+        webType:[1,0,0,0,0,0,0],
         //具体章节网址替换
-        webHref:[0,0,0,0,1,0],
+        webHref:[0,0,0,0,1,0,0],
         //book：不同书源的获取作品名的标签选择不同
         //步骤3:去书源网站搜索页面查找标签并替换
         webBook:["",
@@ -233,7 +235,7 @@ ${bookhtml}
       let readQrcodeMobile = document.querySelector("#readQrcodeMobile")
       let cid = readQrcodeMobile.dataset.cid
      let bid = readQrcodeMobile.dataset.bid
-     const res = await parseDocFromAjax("GET",`https://vipreader.qidian.com/ajax/chapterReview/reviewSummary?bookId=${bid}&&chapterId=${cid}`,true)
+     const res = await parseDocFromAjax("GET",`https://read.qidian.com/ajax/chapterReview/reviewSummary?_csrfToken=${csrfToken}&&bookId=${bid}&&chapterId=${cid}`,true)
      console.log(res)
        res.list.map(item => {
             const span = document.querySelector(`span[data-segid="${item.segmentId}"]`)
@@ -310,7 +312,7 @@ ${bookhtml}
     //获取小说目录
     async function getChapterList(book){
       let resList = []
-      let bookUrl = book.url.replace('https://vipreader.qidian.com/',config.webGo[config.webSiteIndex])
+      let bookUrl = book.url.replace('https://read.qidian.com/',config.webGo[config.webSiteIndex])
       const r = await parseDocFromAjax('GET',bookUrl)
         if(config.webType[config.webSiteIndex] == 1){
            // console.log(r)
