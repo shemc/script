@@ -17,6 +17,7 @@
   -  [白嫖节点](https://github.com/arielherself/autosub)
   -  [26字母](https://github.com/xiaolinshao/linshao)
   -  [linux大佬](https://github.com/yuanwangokk/subscription)
+  -  [免费节点](https://github.com/vveg26/chromego_merge)
   -  [免费节点](https://github.com/alanbobs999/TopFreeProxies)
   -  [代理搭建](https://github.com/krsipig/tg)
 ### 视频app配置文件
