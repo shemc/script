@@ -15,6 +15,7 @@
   -  [leafxcy](https://github.com/leafxcy/JavaScript)
   -  [liyiboa](https://github.com/liyiboa/ksjsb)
   -  [白嫖节点](https://github.com/arielherself/autosub)
+  -  [26字母](https://github.com/xiaolinshao/linshao)
   -  [免费节点](https://github.com/alanbobs999/TopFreeProxies)
   -  [代理搭建](https://github.com/krsipig/tg)
 ### 视频app配置文件
@@ -23,7 +24,7 @@
   - TVBox配置 
    - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC)
    - [懒人包](https://github.com/YuanHsing/freed)
-   - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://wwi.lanzoui.com/izRMJv45llc) 代号：`miao`
+   - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://www.lanzoub.com/izRMJv45llc) 代号：`miao`
    - [liu673cn](https://github.com/liu673cn/box) `https://raw.liucn.cc/box/m.json`    
    - [B佬](https://github.com/madaodei/baddychen0608)
    - [heroaku](https://github.com/heroaku/TVboxo)   `https://github.com/heroaku/TVboxo`   
