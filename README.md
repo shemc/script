@@ -26,6 +26,7 @@
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json`
   - TVBox配置 
    - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC)
+   - [CatVodOpen](https://github.com/catvod/CatVodOpen)
    - [懒人包](https://github.com/YuanHsing/freed)
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://www.lanzoub.com/izRMJv45llc) 代号：`miao`
    - [liu673cn](https://github.com/liu673cn/box) `https://raw.liucn.cc/box/m.json`    
