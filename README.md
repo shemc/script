@@ -18,13 +18,13 @@
   -  [26字母](https://github.com/xiaolinshao/linshao)
   -  [linux大佬](https://github.com/yuanwangokk/subscription) 
   -  [免费节点vveg26](https://github.com/vveg26/chromego_merge)
-  -  [免费节点mfbpn](https://github.com/mfbpn/tg_mfbpn_sub) 
+  -  [免费节点mfbpn](https://github.com/mfbpn/tg_mfbpn_sub)  
   -  [免费节点](https://github.com/alanbobs999/TopFreeProxies)
   -  [代理搭建](https://github.com/krsipig/tg) 
-  -  [江小白]([https://github.com/krsipig/tg](https://github.com/963540817/dashu))  
+  -  [江小白](https://github.com/963540817/dashu)   
 ### 视频app配置文件
 
-- 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json`
+- 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json` 
   - TVBox配置 
    - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC)
    - [CatVodOpen](https://github.com/catvod/CatVodOpen) 
@@ -35,7 +35,7 @@
    - [heroaku](https://github.com/heroaku/TVboxo)   `https://github.com/heroaku/TVboxo`    
    - yuanhsing    `https://freed.yuanhsing.cf/TVBox/meowcf2.json`   
    - yoyo82520缝合 `https://raw.githubusercontent.com/yoyo82520/huaiptv/3f2dd11c22bdfb87f9f96e4e808894ff77c29c7e/mhao.json`  
-   - [hd9211](https://github.com/hd9211/maotv) `https://cdn.jsdelivr.net/gh/hd9211/maotv/maotv1.txt`
+   - [hd9211](https://github.com/hd9211/maotv) `https://cdn.jsdelivr.net/gh/hd9211/maotv/maotv1.txt` 
    - `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`
    - `https://github.com/PizazzGY/TVBox`
  
@@ -51,14 +51,14 @@
  - [营养快线](https://github.com/YanG-1989/m3u) `https://github.com/YanG-1989/m3u` 
  
 ### 直播订阅
- - [m3u](https://github.com/vamoschuck/TV)`https://ghproxy.net/https://github.com/vamoschuck/TV/blob/main/M3U` 
+ - [m3u](https://github.com/vamoschuck/TV)`https://ghproxy.net/https://github.com/vamoschuck/TV/blob/main/M3U`  
  - `https://chiguren.github.io/tv/live.txt`
  - `https://shadowchiu369.github.io/TVBox/tv/sclive.txt`
- - `https://gitcode.net/qq_26898231/TVBox/-/raw/main/live/zb.txt` 
- - `https://gitcode.net/kuukey/a/-/raw/master/tvlive.txt`
+ - `https://gitcode.net/qq_26898231/TVBox/-/raw/main/live/zb.txt`  
+ - `https://gitcode.net/kuukey/a/-/raw/master/tvlive.txt` 
 
 ###  CDN加速
- - `https://fastly.jsdelivr.net/gh/`
+ - `https://fastly.jsdelivr.net/gh/` 
  - `https://cdn.jsdelivr.net/gh/` 
  - `https://purge.jsdelivr.net/gh/` 
  - `https://raw.githubusercontents.com/`
@@ -66,6 +66,6 @@
  - `https://raw.fastgit.org/` 
  - `https://ghproxy.net/` 
  - `https://gitcdn.top/`
- - `` 
+ - `https://git-fast.trli.work` 
  
 
