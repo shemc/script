@@ -9,7 +9,7 @@
   - 支持起点 vip 阅读，如果无效，可能需要在 `Tampermonkey` 中设置 `@connect 模式`: 为 `宽松` 模式。
 
 ###  脚本大佬
-  -  [wjx0428](https://github.com/wjx0428/wjx/tree/main/oneself) 
+  -  [wjx0428](https://github.com/wjx0428/wjx/tree/main/oneself)  
   -  [lyj52](https://github.com/lyj52/jzy)
   -  [JDWXX](https://github.com/JDWXX/ql_all)
   -  [leafxcy](https://github.com/leafxcy/JavaScript)
@@ -26,11 +26,12 @@
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json` 
   - TVBox配置 
-   - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC)
-   - [CatVodOpen](https://github.com/catvod/CatVodOpen) 
+   - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC) 
+   - [CatVodOpen](https://github.com/catvod/CatVodOpen)  
    - [懒人包](https://github.com/YuanHsing/freed)
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://www.lanzoub.com/izRMJv45llc) 代号：`miao`
-   - [liu673cn](https://github.com/liu673cn/box) `https://raw.liucn.cc/box/m.json`    
+   - [ok](https://github.com/okcaptain/okjar/tree/rm) `https://mirror.ghproxy.com/https://raw.githubusercontent.com/okcaptain/okjar/rm/ok.json`   
+   - [liu673cn](https://github.com/liu673cn/box) `https://raw.liucn.cc/box/m.json`     
    - [B佬](https://github.com/madaodei/baddychen0608) 
    - [heroaku](https://github.com/heroaku/TVboxo)   `https://github.com/heroaku/TVboxo`    
    - yuanhsing    `https://freed.yuanhsing.cf/TVBox/meowcf2.json`   
