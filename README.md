@@ -25,9 +25,10 @@
 ### 视频app配置文件
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json` 
-  - TVBox配置 
-   - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC) 
-   - [CatVodOpen](https://github.com/catvod/CatVodOpen)  
+  - TVBox配置
+   - [蜂蜜](https://github.com/FongMi/Release)  
+   - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC)  
+   - [CatVodOpen](https://github.com/catvod/CatVodOpen)   
    - [懒人包](https://github.com/YuanHsing/freed)
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://www.lanzoub.com/izRMJv45llc) 代号：`miao`
    - [ok](https://github.com/okcaptain/okjar/tree/rm) `https://mirror.ghproxy.com/https://raw.githubusercontent.com/okcaptain/okjar/rm/ok.json`   
@@ -52,7 +53,8 @@
  - [营养快线](https://github.com/YanG-1989/m3u) `https://github.com/YanG-1989/m3u` 
  
 ### 直播订阅
- - [m3u](https://github.com/vamoschuck/TV)`https://ghproxy.net/https://github.com/vamoschuck/TV/blob/main/M3U`  
+ - [范明明](https://github.com/fanmingming/live/tree/main/tv/m3u)`https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u`   
+ - [m3u](https://github.com/vamoschuck/TV)`https://ghproxy.net/https://github.com/vamoschuck/TV/blob/main/M3U`   
  - `https://chiguren.github.io/tv/live.txt`
  - `https://shadowchiu369.github.io/TVBox/tv/sclive.txt`
  - `https://gitcode.net/qq_26898231/TVBox/-/raw/main/live/zb.txt`  
