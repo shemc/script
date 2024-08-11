@@ -4,22 +4,22 @@
 
 - [MyNovelReader](MyNovelReader.user.js)：小说阅读脚本
   - 从 6.0.0（2017-8-23）开始，改成 `import` 构建（可能旧浏览器不支持，待解决）。Opera 12 及旧版本浏览器用户暂时先用以前的版本。
-  - [大神魔改](https://github.com/821938089/MyNovelReader)
+  - [大神魔改](https://github.com/821938089/MyNovelReader)  
   - 旧版本 [My Novel Reader 5.6.9](https://github.com/shemc/script/raw/main/My%20Novel%20Reader%205.6.9.js)
   - 支持起点 vip 阅读，如果无效，可能需要在 `Tampermonkey` 中设置 `@connect 模式`: 为 `宽松` 模式。
 
 ###  脚本大佬
   -  [wjx0428](https://github.com/wjx0428/wjx/tree/main/oneself)  
   -  [lyj52](https://github.com/lyj52/jzy)
-  -  [JDWXX](https://github.com/JDWXX/ql_all)
+  -  [JDWXX](https://github.com/JDWXX/ql_all) 
   -  [leafxcy](https://github.com/leafxcy/JavaScript)
   -  [liyiboa](https://github.com/liyiboa/ksjsb)
-  -  [白嫖节点](https://github.com/arielherself/autosub)
+  -  [白嫖节点](https://github.com/arielherself/autosub) 
   -  [26字母](https://github.com/xiaolinshao/linshao)
   -  [linux大佬](https://github.com/yuanwangokk/subscription) 
   -  [免费节点vveg26](https://github.com/vveg26/chromego_merge)
   -  [免费节点mfbpn](https://github.com/mfbpn/tg_mfbpn_sub)
-  -  [免费节点](https://github.com/Huibq/TrojanLinks)
+  -  [免费节点](https://github.com/Huibq/TrojanLinks) 
   -  [免费节点](https://github.com/alanbobs999/TopFreeProxies)
   -  [代理搭建](https://github.com/krsipig/tg) 
   -  [江小白](https://github.com/963540817/dashu)   
@@ -28,8 +28,8 @@
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json` 
   - TVBox配置
    - [蜂蜜](https://github.com/FongMi/Release)  
-   - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC)  
-   - [CatVodOpen](https://github.com/catvod/CatVodOpen)   
+   - [o0HalfLife0o开发版](https://github.com/o0HalfLife0o/TVBoxOSC)   
+   - [CatVodOpen](https://github.com/catvod/CatVodOpen)    
    - [懒人包](https://github.com/YuanHsing/freed)
    - 爬虫：[CatVodTVSpider](https://github.com/catvod/CatVodTVSpider)                      `软件2.0.0及以上版本`[下载](https://www.lanzoub.com/izRMJv45llc) 代号：`miao`
    - [ok](https://github.com/okcaptain/okjar/tree/rm) `https://mirror.ghproxy.com/https://raw.githubusercontent.com/okcaptain/okjar/rm/ok.json`   
@@ -39,8 +39,9 @@
    - yuanhsing    `https://freed.yuanhsing.cf/TVBox/meowcf2.json`   
    - yoyo82520缝合 `https://raw.githubusercontent.com/yoyo82520/huaiptv/3f2dd11c22bdfb87f9f96e4e808894ff77c29c7e/mhao.json`  
    - [hd9211](https://github.com/hd9211/maotv) `https://cdn.jsdelivr.net/gh/hd9211/maotv/maotv1.txt` 
-   - `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`
-   - `https://github.com/PizazzGY/TVBox`
+   - `https://shemc.coding.net/p/cat/d/config/git/raw/master/maoys.json`  
+   - `https://github.com/PizazzGY/TVBox` 
+   - [drpy](https://github.com/yw88075/tvbox) `https://raw.githubusercontent.com/yw88075/tvbox/main/dr/js.json`
  
  - Biubiu
    - [liu673cn](https://github.com/liu673cn/xbb) `https://raw.iqiq.io/liu673cn/xbb/main/xbb.txt` 
