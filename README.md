@@ -13,7 +13,7 @@
   -  [lyj52](https://github.com/lyj52/jzy)
   -  [JDWXX](https://github.com/JDWXX/ql_all) 
   -  [leafxcy](https://github.com/leafxcy/JavaScript)
-  -  [liyiboa](https://github.com/liyiboa/ksjsb)
+  -  [R佬](https://github.com/ApolloRioo)
   -  [白嫖节点](https://github.com/arielherself/autosub) 
   -  [26字母](https://github.com/xiaolinshao/linshao)
   -  [linux大佬](https://github.com/yuanwangokk/subscription) 
