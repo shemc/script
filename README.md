@@ -4,8 +4,8 @@
 
 - [MyNovelReader](MyNovelReader.user.js)：小说阅读脚本
   - 从 6.0.0（2017-8-23）开始，改成 `import` 构建（可能旧浏览器不支持，待解决）。Opera 12 及旧版本浏览器用户暂时先用以前的版本。
-  - [大神魔改](https://github.com/821938089/MyNovelReader)  
-  - 旧版本 [My Novel Reader 5.6.9](https://github.com/shemc/script/raw/main/My%20Novel%20Reader%205.6.9.js)
+  - [大神魔改](https://github.com/821938089/MyNovelReader)      
+  - 旧版本 [My Novel Reader 5.6.9](https://github.com/shemc/script/raw/main/My%20Novel%20Reader%205.6.9.js)    
   - 支持起点 vip 阅读，如果无效，可能需要在 `Tampermonkey` 中设置 `@connect 模式`: 为 `宽松` 模式。
 
 ###  脚本大佬
@@ -13,16 +13,17 @@
   -  [lyj52](https://github.com/lyj52/jzy)
   -  [JDWXX](https://github.com/JDWXX/ql_all) 
   -  [leafxcy](https://github.com/leafxcy/JavaScript)
-  -  [R佬](https://github.com/ApolloRioo)
-  -  [白嫖节点](https://github.com/arielherself/autosub) 
-  -  [26字母](https://github.com/xiaolinshao/linshao)
-  -  [linux大佬](https://github.com/yuanwangokk/subscription) 
-  -  [免费节点vveg26](https://github.com/vveg26/chromego_merge)
-  -  [免费节点mfbpn](https://github.com/mfbpn/tg_mfbpn_sub)
-  -  [免费节点](https://github.com/Huibq/TrojanLinks) 
+  -  [R佬](https://github.com/ApolloRioo)  
+  -  [白嫖节点](https://github.com/arielherself/autosub)       
+  -  [26字母](https://github.com/xiaolinshao/linshao)  
+  -  [linux大佬](https://github.com/yuanwangokk/subscription)   
+  -  [免费节点vveg26](https://github.com/vveg26/chromego_merge)  
+  -  [免费节点mfbpn](https://github.com/mfbpn/tg_mfbpn_sub)  
+  -  [免费节点](https://github.com/Huibq/TrojanLinks)   
   -  [免费节点](https://github.com/alanbobs999/TopFreeProxies)
-  -  [代理搭建](https://github.com/krsipig/tg) 
-  -  [江小白](https://github.com/963540817/dashu)   
+  -  [代理搭建](https://github.com/krsipig/tg)  
+  -  [临时邮箱](https://github.com/kawakamistsh/linshiyouxiang)                   
+  -  [江小白](https://github.com/963540817/dashu)           
 ### 视频app配置文件
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json` 
@@ -56,7 +57,7 @@
  
 ### 直播订阅
  - [范明明](https://github.com/fanmingming/live/tree/main/tv/m3u)`https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u`   
- - [m3u](https://github.com/vamoschuck/TV)`https://ghproxy.net/https://github.com/vamoschuck/TV/blob/main/M3U`   
+ - [m3u](https://github.com/vamoschuck/TV)`https://ghproxy.net/https://github.com/vamoschuck/TV/blob/main/M3U`     
  - `https://chiguren.github.io/tv/live.txt`
  - `https://shadowchiu369.github.io/TVBox/tv/sclive.txt`
  - `https://gitcode.net/qq_26898231/TVBox/-/raw/main/live/zb.txt`  
