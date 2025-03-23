@@ -14,7 +14,7 @@
   -  [JDWXX](https://github.com/JDWXX/ql_all) 
   -  [leafxcy](https://github.com/leafxcy/JavaScript)
   -  [R佬](https://github.com/ApolloRioo)  
-  -  [白嫖节点](https://github.com/arielherself/autosub)       
+  -  [白嫖节点](https://github.com/dongchengjie/airport)       
   -  [26字母](https://github.com/xiaolinshao/linshao)  
   -  [linux大佬](https://github.com/yuanwangokk/subscription)   
   -  [免费节点vveg26](https://github.com/vveg26/chromego_merge)  
