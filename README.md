@@ -22,7 +22,8 @@
   -  [免费节点](https://github.com/Huibq/TrojanLinks)   
   -  [免费节点](https://github.com/alanbobs999/TopFreeProxies)
   -  [代理搭建](https://github.com/krsipig/tg)  
-  -  [临时邮箱](https://github.com/kawakamistsh/linshiyouxiang)                   
+  -  [临时邮箱](https://github.com/kawakamistsh/linshiyouxiang)
+  -  [黄标](https://github.com/yuanwangokk-1/subscribe)
   -  [江小白](https://github.com/963540817/dashu)           
 ### 视频app配置文件
 
