@@ -24,7 +24,8 @@
   -  [代理搭建](https://github.com/krsipig/tg)  
   -  [临时邮箱](https://github.com/kawakamistsh/linshiyouxiang)
   -  [黄标](https://github.com/yuanwangokk-1/subscribe)
-  -  [江小白](https://github.com/963540817/dashu)           
+  -  [江小白](https://github.com/963540817/dashu)
+  -  [qdapi](https://github.com/yinghuo666/qdapi)                            
 ### 视频app配置文件
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json` 
