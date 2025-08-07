@@ -9,11 +9,11 @@
   - 支持起点 vip 阅读，如果无效，可能需要在 `Tampermonkey` 中设置 `@connect 模式`: 为 `宽松` 模式。
 
 ###  脚本大佬
-  -  [wjx0428](https://github.com/wjx0428/wjx/tree/main/oneself)  
+  -  [wjx0428](https://github.com/wjx0428/wjx/tree/main/oneself)      
   -  [lyj52](https://github.com/lyj52/jzy)
   -  [JDWXX](https://github.com/JDWXX/ql_all) 
-  -  [leafxcy](https://github.com/leafxcy/JavaScript)
-  -  [R佬](https://github.com/ApolloRioo)  
+  -  [签到](https://github.com/pzx521521)      
+  -  [R佬](https://github.com/ApolloRioo)    
   -  [白嫖节点](https://github.com/dongchengjie/airport)       
   -  [26字母](https://github.com/xiaolinshao/linshao)  
   -  [linux大佬](https://github.com/yuanwangokk/subscription)   
