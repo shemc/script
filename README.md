@@ -9,23 +9,23 @@
   - 支持起点 vip 阅读，如果无效，可能需要在 `Tampermonkey` 中设置 `@connect 模式`: 为 `宽松` 模式。
 
 ###  脚本大佬
-  -  [wjx0428](https://github.com/wjx0428/wjx/tree/main/oneself)      
+  -  [wjx0428](https://github.com/wjx0428/wjx/tree/main/oneself)        
   -  [lyj52](https://github.com/lyj52/jzy)
   -  [JDWXX](https://github.com/JDWXX/ql_all) 
   -  [签到](https://github.com/pzx521521)      
   -  [R佬](https://github.com/ApolloRioo)    
   -  [白嫖节点](https://github.com/dongchengjie/airport)       
-  -  [26字母](https://github.com/xiaolinshao/linshao)  
+  -  [26字母](https://github.com/xiaolinshao/linshao)      
   -  [linux大佬](https://github.com/yuanwangokk/subscription)   
-  -  [免费节点vveg26](https://github.com/vveg26/chromego_merge)  
+  -  [免费节点vveg26](https://github.com/vveg26/chromego_merge)    
   -  [免费节点mfbpn](https://github.com/mfbpn/tg_mfbpn_sub)  
   -  [免费节点](https://github.com/Huibq/TrojanLinks)   
-  -  [免费节点](https://github.com/alanbobs999/TopFreeProxies)
-  -  [代理搭建](https://github.com/krsipig/tg)  
+  -  [节点转换](https://github.com/changfengoss/pub/tree/main)            
+  -  [代理搭建](https://github.com/krsipig/tg)    
   -  [临时邮箱](https://github.com/kawakamistsh/linshiyouxiang)
   -  [黄标](https://github.com/yuanwangokk-1/subscribe)
-  -  [江小白](https://github.com/963540817/dashu)
-  -  [qdapi](https://github.com/yinghuo666/qdapi)                            
+  -  [江小白](https://github.com/963540817/dashu)    
+  -  [qdapi](https://github.com/yinghuo666/qdapi)                              
 ### 视频app配置文件
 
 - 接口地址 `https://cdn.jsdelivr.net/gh/账号名称/项目名/`       `https://cdn.jsdelivr.net/gh/shemc/script/maotv.json` 
